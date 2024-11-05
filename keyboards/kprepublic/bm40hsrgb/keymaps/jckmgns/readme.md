@@ -1,1 +1,1 @@
-# The default keymap for bm40hsrgb
+# Custom keymap for bm40hsrgb
