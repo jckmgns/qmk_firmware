@@ -33,8 +33,8 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
             KC_TRNS, KC_TRNS,       KC_TRNS,    KC_TRNS,    KC_NO,      KC_NO,      KC_NO,      KC_TRNS,    KC_TRNS,    KC_TRNS,    KC_TRNS),
 
 	[4] = LAYOUT_planck_mit(
-            KC_NO,   LGUI(KC_1),    LGUI(KC_2), LGUI(KC_3), LGUI(KC_4), LGUI(KC_5), LGUI(KC_6), LGUI(KC_7), LGUI(KC_8), LGUI(KC_9), LGUI(KC_0), KC_NO,
-            KC_NO,   KC_NO,         KC_MPLY,    KC_MSTP,    KC_VOLU,    KC_NO,      RGB_TOG,    RGB_HUI,    RGB_SAI,    RGB_VAI,    RGB_SPI,    KC_NO,
-            KC_LSFT, KC_NO,         KC_MPRV,    KC_MNXT,    KC_VOLD,    RGB_RMOD,   RGB_MOD,    RGB_HUD,    RGB_SAD,    RGB_VAD,    RGB_SPD,    KC_RSFT,
-            KC_TRNS, QK_BOOTLOADER, KC_NO,      KC_NO,      KC_TRNS,    KC_NO,      KC_TRNS,    KC_NO,      KC_NO,      KC_TRNS,    KC_TRNS)
+            KC_NO,   LGUI(KC_1), LGUI(KC_2), LGUI(KC_3), LGUI(KC_4), LGUI(KC_5), LGUI(KC_6), LGUI(KC_7), LGUI(KC_8), LGUI(KC_9), LGUI(KC_0), QK_BOOTLOADER,
+            KC_NO,   KC_NO,      KC_MPLY,    KC_MSTP,    KC_VOLU,    KC_NO,      RGB_TOG,    RGB_HUI,    RGB_SAI,    RGB_VAI,    RGB_SPI,    KC_NO,
+            KC_LSFT, KC_NO,      KC_MPRV,    KC_MNXT,    KC_VOLD,    RGB_RMOD,   RGB_MOD,    RGB_HUD,    RGB_SAD,    RGB_VAD,    RGB_SPD,    KC_RSFT,
+            KC_TRNS, KC_NO,      KC_NO,      KC_NO,      KC_TRNS,    KC_NO,      KC_TRNS,    KC_NO,      KC_NO,      KC_TRNS,    KC_TRNS)
 };
